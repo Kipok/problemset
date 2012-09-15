@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>MenuButton.qml</file>
+        <file>BottomButton.qml</file>
+        <file>CheckGroup.qml</file>
+        <file>CheckTree.qml</file>
+        <file>Headline.qml</file>
+        <file>MainText.qml</file>
+        <file>TopBox.qml</file>
+        <file>CheckBoxes.qml</file>
+        <file>Task.qml</file>
+        <file>AddTaskField.qml</file>
+        <file>MyButton.qml</file>
+        <file>MyCheckBox.qml</file>
+        <file>MyMenu.qml</file>
+        <file>xml/structure.xml</file>
+        <file>images/background.png</file>
+        <file>images/tick.svg</file>
+        <file>images/triangle.svg</file>
+    </qresource>
+</RCC>

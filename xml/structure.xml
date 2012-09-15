@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<menu>
+<!-- here and later a nest attribute is using to determine, if respective item has children items or hasn't -->
+<!-- num attribute is simply sequential number of item -->
+    <item name="О программе" nest="0" num="0">
+        <content type="text">
+Здесь будет написано что-то о программе. Надо решить что.
+Хм.. Кажется переходы строки работают:)
+        </content>
+    </item>
+    <item name="Выбрать задачи" nest="1" num="1">
+        <content type="checktree">
+            <checkgroup name="Механика" number="7">
+                <checkbox name="Динамика" num="0"/>
+                <checkbox name="Кинематика" num="1"/>
+                <checkbox name="Статика" num="2"/>
+                <checkbox name="Законы сохранения" num="3"/>
+                <checkbox name="Силы" num="4"/>
+                <checkbox name="Механическая работа, энергия" num="5"/>
+                <checkbox name="Колебания и волны" num="6"/>
+            </checkgroup>
+            <checkgroup name="Молекулярная физика и термодинамика" number="5">
+                <checkbox name="Молекулярно-кинетическая теория" num="7"/>
+                <checkbox name="Газовые законы и уравнение состояния" num="8"/>
+                <checkbox name="Первый закон термодинамики" num="9"/>
+                <checkbox name="Тепловые двигатели, второй закон термодинамики" num="10"/>
+                <checkbox name="Влажность" num="11"/>
+            </checkgroup>
+            <checkgroup name="Электродинамика" number="6">
+                <checkbox name="Электростатика" num="12"/>
+                <checkbox name="Магнитостатика" num="13"/>
+                <checkbox name="Постоянный электрический ток" num="14"/>
+                <checkbox name="Электромагнитная индукция" num="15"/>
+                <checkbox name="Переменный электрический ток" num="16"/>
+                <checkbox name="Электромагнитные колебания и волны" num="17"/>
+            </checkgroup>
+            <checkgroup name="Оптика" number="4">
+                <checkbox name="Геометрическая оптика" num="0=18"/>
+                <checkbox name="Волновая оптика" num="19"/>
+                <checkbox name="Фотоэффект" num="20"/>
+                <checkbox name="Корпускулярно-волновой дуализм" num="21"/>
+            </checkgroup>
+            <checkgroup name="Атомная и ядерная физика" number="6">
+                <checkbox name="Строение ядра" num="22"/>
+                <checkbox name="Энергия связи" num="23"/>
+                <checkbox name="Постулаты Бора" num="24"/>
+                <checkbox name="Правило смещения" num="25"/>
+                <checkbox name="Ядерные реакции" num="26"/>
+                <checkbox name="Элементарные частицы" num="27"/>
+            </checkgroup>
+            <checkgroup name="Специальная теория относительности" number="1">
+                <checkbox name="СТО" num="28"/>
+            </checkgroup>
+            <checkbox name="Графические" num="29"/>
+            <checkbox name="На подстановку в формулу" num="30"/>
+            <checkbox name="На совмещение формул" num="31"/>
+            <checkbox name="Качественные" num="32"/>
+            <checkbox name="На соответствие" num="33"/>
+            <checkbox name="На зависимость и сравнение" num="34"/>
+            <checkbox name="На эксперимент" num="35"/>
+            <checkbox name="На язык физики" num="36"/>
+        </content>
+        <item name="Готов к решению!" nest="0" num="0">
+            <content type="task"/>
+        </item>
+    </item>
+    <item name="Пройти тестирование" nest="1" num="2">
+        <content type="text">Про правила, смысл, как будет показан результат, что с ним делать и т.д.</content>
+        <item name="Диагностика" nest="0" num="0">
+            <content type="text">... Тоже ненужная вкладка ...</content>
+        </item>
+        <item name="Тест" nest="0" num="1">
+            <content type="text">Это вообще не нужная вкладка.. Уберем :)</content>
+        </item>
+    </item>
+    <item name="Конструктор" nest="1" num="3">
+        <content type="text">
+Функции конструктора временно недоступны.
+Простите мою лень..
+        </content>
+        <item name="Добавить задачи" nest="0" num="0">
+            <content type="addTasks"/>
+        </item>
+    </item>
+</menu>
